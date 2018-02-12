@@ -3,8 +3,7 @@ const Discord = require("discord.js");
 const client = new Discord.Client();
 
 const token = process.env.token;
-//client id: 412425807445622785
-//invite with https://discordapp.com/oauth2/authorize?client_id=412425807445622785&scope=bot
+https://discordapp.com/oauth2/authorize?client_id=412732597542846464&scope=bot
 client.on("ready", () => {
   console.log("bot connected and ready!");
 });
