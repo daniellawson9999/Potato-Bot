@@ -2,7 +2,7 @@ const Discord = require("discord.js");
 
 const client = new Discord.Client();
 
-const token = "NDEyNDI1ODA3NDQ1NjIyNzg1.DWKE_Q.JMq7nvyumRH3Et10_9bAoQSqgxo";
+const token = process.env.token;
 //client id: 412425807445622785
 //invite with https://discordapp.com/oauth2/authorize?client_id=412425807445622785&scope=bot
 client.on("ready", () => {
